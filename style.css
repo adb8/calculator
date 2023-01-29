@@ -1,0 +1,43 @@
+.cell {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#keypad-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 400px;
+}
+
+#screen-container {
+    height: 70px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    width: 392px
+}
+
+#calculator-container {
+    font-family: "Permanent Marker", cursive;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    padding: 10px;
+    width: 416px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none
+}
+
+#screen-container {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
